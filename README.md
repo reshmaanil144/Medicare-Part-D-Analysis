@@ -84,13 +84,13 @@ This concentration level immediately signals where intervention efforts should f
 
 #### Three Distinct Patterns Emerged
 
-**Blood Thinners Dominating the Market**  
+* **Blood Thinners Dominating the Market**  
 Eliquis and Xarelto have largely replaced warfarin for common conditions like atrial fibrillation. These newer blood thinners cost dramatically more but are being prescribed to hundreds of thousands of patients as the default choice.
 
-**The Diabetes Drug Revolution**  
+* **The Diabetes Drug Revolution**  
 Ozempic, Jardiance, and Trulicity represent a fundamental shift toward expensive diabetes treatments. While these drugs may offer clinical advantages, they're prescribed at massive volumes despite metformin's proven effectiveness at a fraction of the cost.
 
-**Patent Cliff Opportunities**  
+* **Patent Cliff Opportunities**  
 Humira represents a unique $1.4+ billion opportunity. Unlike the other cost drivers, Humira's patent expiration creates direct biosimilar substitution possibilities with clinically equivalent but significantly cheaper alternatives now available. 
 
 
