@@ -167,7 +167,6 @@ Three distinct cost drivers emerged: blood thinners like Eliquis have replaced c
 
 **The core issue**: Expensive drugs aren't being used as last resorts - they've become first-line choices where cheaper, equally effective alternatives exist.
 
----
 
 ### 2. The 64-100x Price Differential Discovery
 
@@ -181,7 +180,7 @@ Three distinct cost drivers emerged: blood thinners like Eliquis have replaced c
 
 [Price Differential Comparison Chart]
 
----
+
 
 ### 3. Volume vs. Price Analysis Framework
 
@@ -195,7 +194,7 @@ Three distinct cost drivers emerged: blood thinners like Eliquis have replaced c
 
 [Volume vs Price Impact Matrix]
 
----
+
 
 ### 4. Prescriber Behavior Pattern Analysis
 
