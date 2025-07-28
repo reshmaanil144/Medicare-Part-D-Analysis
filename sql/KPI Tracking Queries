@@ -1,0 +1,37 @@
+-- KPI 1: Generic Substitution Rate
+SELECT 
+  SUM(CASE WHEN Gnrc_Name = 'Warfarin Sodium' THEN Tot_Clms ELSE 0 END) * 100.0 / 
+  SUM(CASE WHEN Gnrc_Name IN ('Warfarin Sodium', 'Apixaban', 'Rivaroxaban') THEN Tot_Clms ELSE 0 END) as blood_thinner_generic_rate,
+  
+  SUM(CASE WHEN Gnrc_Name = 'Metformin Hcl' THEN Tot_Clms ELSE 0 END) * 100.0 / 
+  SUM(CASE WHEN Gnrc_Name IN ('Metformin Hcl', 'Semaglutide', 'Empagliflozin', 'Dulaglutide') THEN Tot_Clms ELSE 0 END) as diabetes_generic_rate
+FROM Medicare_PartD;
+
+-- KPI 2: Cost Concentration Tracking (baseline establishment)
+WITH top10_baseline AS (
+    SELECT Gnrc_Name, SUM(Tot_Drug_Cst) as drug_cost,
+           ROW_NUMBER() OVER (ORDER BY SUM(Tot_Drug_Cst) DESC) as rank
+    FROM Medicare_PartD
+    GROUP BY Gnrc_Name
+)
+SELECT SUM(drug_cost) * 100.0 / (SELECT SUM(Tot_Drug_Cst) FROM Medicare_PartD) as baseline_concentration_pct
+FROM top10_baseline 
+WHERE rank <= 10;
+
+-- KPI 3: Prescriber Efficiency Score
+WITH prescriber_costs AS (
+  SELECT Prscrbr_NPI, Prscrbr_Type,
+         SUM(Tot_Drug_Cst) / NULLIF(SUM(Tot_Benes), 0) as cost_per_patient
+  FROM Medicare_PartD
+  GROUP BY Prscrbr_NPI, Prscrbr_Type
+),
+peer_averages AS (
+  SELECT Prscrbr_Type, AVG(cost_per_patient) as peer_avg_cost
+  FROM prescriber_costs
+  GROUP BY Prscrbr_Type
+)
+SELECT p.Prscrbr_NPI,
+       (pa.peer_avg_cost - p.cost_per_patient) / NULLIF(pa.peer_avg_cost, 0) * 100 as efficiency_score
+FROM prescriber_costs p
+JOIN peer_averages pa ON p.Prscrbr_Type = pa.Prscrbr_Type
+ORDER BY efficiency_score ASC;
