@@ -91,9 +91,7 @@ Eliquis and Xarelto have largely replaced warfarin for common conditions like at
 Ozempic, Jardiance, and Trulicity represent a fundamental shift toward expensive diabetes treatments. While these drugs may offer clinical advantages, they're prescribed at massive volumes despite metformin's proven effectiveness at a fraction of the cost.
 
 **Patent Cliff Opportunities**  
-Humira represents a unique $1.4+ billion opportunity. Unlike the other cost drivers, Humira's patent expiration creates direct biosimilar substitution possibilities with clinically equivalent but significantly cheaper alternatives now available.
-
-**The Real Issue**: This isn't about expensive drugs existing - it's about expensive drugs dominating markets where cheaper, effective alternatives are available.
+Humira represents a unique $1.4+ billion opportunity. Unlike the other cost drivers, Humira's patent expiration creates direct biosimilar substitution possibilities with clinically equivalent but significantly cheaper alternatives now available. 
 
 ### 2. The 64-100x Price Differential Investigation
 
@@ -115,9 +113,8 @@ We systematically searched for therapeutic alternatives and analyzed their usage
 
 #### The Volume Problem
 
-Here's what's truly concerning: Eliquis has 4.5 times more prescriptions than warfarin but costs 285 times more total. This suggests expensive drugs aren't reserved for special cases - they've become the default choice.
+Here's what's truly concerning: Eliquis has 4.5 times more prescriptions than warfarin but costs 285 times more total. This suggests expensive drugs aren't reserved for special cases - they've become the default choice. The critical question is are all 787,000 Eliquis patients truly unable to use the $13 warfarin alternative? Or are we witnessing a system-wide shift driven by factors beyond medical necessity?
 
-**Critical Question**: Are all 787,000 Eliquis patients truly unable to use the $13 warfarin alternative? Or are we witnessing a system-wide shift driven by factors beyond medical necessity?
 
 ### 3. The $543M Savings Calculation
 
@@ -142,7 +139,7 @@ We tested multiple scenarios:
 
 Even our most conservative estimate yields over $350 million annually - a massive opportunity by any standard.
 
-**Bottom Line**: The savings potential remains enormous because the price differentials are so extreme, even if our switching assumptions are significantly wrong.
+The savings potential remains enormous because the price differentials are so extreme, even if our switching assumptions are significantly wrong.
 
 ### 4. Utilization Management System Failures
 
@@ -158,11 +155,9 @@ In effective step therapy systems, patients try cheaper options first and only m
 - Requirements are too easy to bypass
 - Clinical criteria are so broad that most patients qualify for expensive options
 
-#### Prior Authorization Failures
+#### Prior Authorization Failures & Generic Promotion Breakdown
 
 Massive volumes of expensive drugs indicate prior authorization systems have become rubber-stamp approvals rather than meaningful clinical reviews.
-
-#### Generic Promotion Breakdown
 
 Continued brand drug dominance despite available generics reveals fundamental failures in promotion policies. This is especially concerning for diabetes medications where metformin has decades of proven effectiveness at dramatically lower costs.
 
