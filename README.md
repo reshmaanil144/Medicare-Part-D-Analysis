@@ -54,9 +54,19 @@ The SQL queries used to inspect and perform quality checks can be found [here](h
 
 ### Overview of Findings
 
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
+## Key Insights
 
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
+Medicare Part D spending is dangerously concentrated with just 10 drugs consuming over 30% of all costs, creating unprecedented intervention opportunities that most insurance companies are missing. The root cause isn't just high drug prices - it's systematic utilization management failures where expensive drugs (costing 64-100x more) have become default prescribing choices despite equally effective cheaper alternatives being readily available. Most critically, this presents a quantifiable $543 million annual savings opportunity through targeted step therapy and provider education programs that can be implemented within 12-18 months using specific prescriber and drug targeting strategies identified in this analysis.
+
+**Cost Concentration Trends:**
+
+- **Extreme market dominance revealed**: Top 5 drugs alone account for 21.9% of total program spending, with Eliquis representing 8.4% of ALL Medicare drug costs - a concentration level that indicates systemic market capture rather than isolated pricing issues.
+
+- **Volume and price misalignment identified**: Eliquis dominates with 787,000 prescriptions at $870 each while clinically equivalent warfarin has only 174,000 prescriptions at $13 each, representing a complete market reversal where expensive options became default choices.
+
+- **Systematic intervention opportunities confirmed**: New diabetes drugs have captured massive market share despite metformin's proven effectiveness and 100x lower cost, with Ozempic, Jardiance, and Trulicity collectively driving hundreds of millions in spending where $10 metformin could serve many patients equally well.
+
+- **Biosimilar adoption failures documented**: Patent-expired biologics like Humira continue dominating with $1.4+ billion in spending despite available biosimilar alternatives, indicating weak adoption policies and significant immediate cost reduction opportunities.
 
 
 
