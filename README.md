@@ -18,12 +18,13 @@ Identification of specific prescribers driving disproportionate expensive drug u
 ## Performance Tracking Framework
 Three core metrics to monitor $543M savings progress: Generic Substitution Rate (improve blood thinner generic usage from current 18% toward category-appropriate benchmarks), Cost Concentration (reduce top-10 drug dominance from 31% to under 25%), and Provider Efficiency Scores. Monthly dashboard tracking ensures accountability and measures real progress toward cost reduction goals.
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [[data_cleaning.sql](https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/sql/data_cleaning.sql).
-].
+The SQL queries used to inspect and clean the data for this analysis can be found here [data_cleaning.sql](https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/sql/data_cleaning.sql).
 
-Targed SQL queries regarding various business questions can be found here [link].
+Targeted SQL queries regarding various business questions can be found here [Business Question Analysis Queries](https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/sql/Business%20Question%20Analysis%20Queries).
 
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
+KPI tracking and performance monitoring queries can be found here [KPI Tracking Queries](https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/sql/KPI%20Tracking%20Queries).
+
+Outlier investigation methodology queries can be found here [Outlier Investigation Queries](https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/sql/Outlier%20Investigation%20Queries).
 
 
 
