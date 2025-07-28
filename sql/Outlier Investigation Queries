@@ -19,4 +19,7 @@ WHERE Prscrbr_Last_Org_Name = 'PROVIDER_X' AND Prscrbr_First_Name = 'ANONYMIZED'
 GROUP BY Gnrc_Name, Brnd_Name
 ORDER BY total_cost DESC;
 
-Note: Provider names have been anonymized to protect individual privacy while demonstrating the analytical methodology for investigating statistical outliers. The case study shows how systematic investigation revealed a legitimate mass vaccination operation that was misclassified in the database as an individual family practice provider, illustrating the importance of following evidence-based analysis rather than making assumptions about data anomalies.
+Note: Provider names have been anonymized to protect individual privacy while demonstrating the analytical methodology for investigating 
+statistical outliers. The case study shows how systematic investigation revealed a legitimate mass vaccination operation that was misclassified 
+in the database as an individual family practice provider, illustrating the importance of following evidence-based analysis rather than making
+assumptions about data anomalies.
