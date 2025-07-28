@@ -33,13 +33,20 @@ Outlier investigation methodology queries can be found [here](https://github.com
 
 # Data Structure & Initial Checks
 
-The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
-- **Table 2:**
-- **Table 3:**
-- **Table 4:**
-- **Table 5:**
 
-[Entity Relationship Diagram here]
+The Medicare Part D prescriber database consists of one main table: **Medicare_PartD**, containing **1,000,000+** prescription records across all US states and territories with **22 fields** covering prescriber information, drug details, volume metrics, and cost data.
+
+## Data Quality & Exploration
+
+Prior to beginning the analysis, comprehensive quality control checks were conducted to ensure data integrity and gain familiarity with the dataset structure. These checks validated data completeness, identified potential outliers, and confirmed the dataset's suitability for utilization management analysis.
+
+**Key Data Components:**
+- **Prescriber Information:** Provider demographics, specialties, and geographic distribution
+- **Drug Details:** Generic names, brand names, and therapeutic classifications  
+- **Volume Metrics:** Prescription counts and patient populations
+- **Cost Data:** Total drug costs and per-prescription pricing
+
+The SQL queries used to inspect and perform quality checks can be found here [data_cleaning.sql](https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/sql/data_cleaning.sql).
 
 
 
