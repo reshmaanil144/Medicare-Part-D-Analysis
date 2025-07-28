@@ -157,7 +157,7 @@ Massive volumes of expensive drugs indicate prior authorization systems have bec
 
 **The Pattern**: Expensive drugs aren't being used as last resorts - they've become first-line choices, representing a complete reversal of cost-effective prescribing principles.
 
-# Recommendations:
+# KPIs & Recommendations:
 
 Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
 
