@@ -54,8 +54,6 @@ The SQL queries used to inspect and perform quality checks can be found [here](h
 
 ### Overview of Findings
 
-## Key Insights
-
 Medicare Part D spending is dangerously concentrated with just 10 drugs consuming over 30% of all costs, creating unprecedented intervention opportunities that most insurance companies are missing. The root cause isn't just high drug prices - it's systematic utilization management failures where expensive drugs (costing 64-100x more) have become default prescribing choices despite equally effective cheaper alternatives being readily available. Most critically, this presents a quantifiable $543 million annual savings opportunity through targeted step therapy and provider education programs that can be implemented within 12-18 months using specific prescriber and drug targeting strategies identified in this analysis.
 
 **Cost Concentration Trends:**
