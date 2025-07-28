@@ -70,8 +70,6 @@ Medicare Part D spending is dangerously concentrated with just 10 drugs consumin
 
 # Insights Deep Dive
 
-# Insights Deep Dive
-
 ## The 30.6% Cost Concentration Discovery
 
 When we started analyzing Medicare Part D data, we expected some spending concentration - certain medications are naturally expensive. What we found was far more dramatic than anticipated.
@@ -97,7 +95,6 @@ Humira represents a unique $1.4+ billion opportunity. Unlike the other cost driv
 
 **The Real Issue**: This isn't about expensive drugs existing - it's about expensive drugs dominating markets where cheaper, effective alternatives are available.
 
----
 
 ## The 64-100x Price Differential Investigation
 
@@ -123,7 +120,6 @@ Here's what's truly concerning: Eliquis has 4.5 times more prescriptions than wa
 
 **Critical Question**: Are all 787,000 Eliquis patients truly unable to use the $13 warfarin alternative? Or are we witnessing a system-wide shift driven by factors beyond medical necessity?
 
----
 
 ## The $543M Savings Calculation
 
@@ -150,7 +146,6 @@ Even our most conservative estimate yields over $350 million annually - a massiv
 
 **Bottom Line**: The savings potential remains enormous because the price differentials are so extreme, even if our switching assumptions are significantly wrong.
 
----
 
 ## Utilization Management System Failures
 
