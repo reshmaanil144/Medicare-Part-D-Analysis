@@ -1,0 +1,76 @@
+-- Cost concentration analysis (30.6% discovery)
+WITH drug_totals AS (
+    SELECT Gnrc_Name, Brnd_Name,
+           SUM(Tot_Drug_Cst) as total_cost,
+           SUM(Tot_Clms) as total_claims
+    FROM Medicare_PartD
+    WHERE Tot_Drug_Cst IS NOT NULL AND Tot_Drug_Cst > 0
+    GROUP BY Gnrc_Name, Brnd_Name
+),
+ranked_drugs AS (
+    SELECT *,
+           ROW_NUMBER() OVER (ORDER BY total_cost DESC) as cost_rank,
+           SUM(total_cost) OVER () as grand_total,
+           SUM(total_cost) OVER (ORDER BY total_cost DESC) as running_total
+    FROM drug_totals
+)
+SELECT cost_rank, Gnrc_Name, Brnd_Name, total_cost,
+       ROUND(100.0 * total_cost / grand_total, 2) as pct_of_total,
+       ROUND(100.0 * running_total / grand_total, 2) as cumulative_pct
+FROM ranked_drugs
+WHERE cost_rank <= 50
+ORDER BY cost_rank;
+
+-- Price differential analysis (64x-100x discovery)
+SELECT Gnrc_Name, Brnd_Name,
+       SUM(Tot_Drug_Cst) as total_cost,
+       SUM(Tot_Clms) as total_claims,
+       ROUND(SUM(Tot_Drug_Cst) / SUM(Tot_Clms), 2) as avg_cost_per_claim
+FROM Medicare_PartD
+WHERE Gnrc_Name IN ('Apixaban', 'Warfarin Sodium', 'Semaglutide', 'Metformin Hcl')
+  AND Tot_Drug_Cst IS NOT NULL AND Tot_Drug_Cst > 0
+GROUP BY Gnrc_Name, Brnd_Name
+ORDER BY avg_cost_per_claim DESC;
+
+-- High-ratio prescriber targeting
+WITH ratio_calculation AS (
+    SELECT Prscrbr_NPI, Prscrbr_Last_Org_Name, Prscrbr_Type,
+           SUM(CASE WHEN Gnrc_Name = 'Apixaban' THEN Tot_Clms ELSE 0 END) as eliquis_claims,
+           SUM(CASE WHEN Gnrc_Name = 'Warfarin Sodium' THEN Tot_Clms ELSE 0 END) as warfarin_claims,
+           SUM(CASE WHEN Gnrc_Name = 'Apixaban' THEN Tot_Drug_Cst ELSE 0 END) as eliquis_cost
+    FROM Medicare_PartD
+    GROUP BY Prscrbr_NPI, Prscrbr_Last_Org_Name, Prscrbr_Type
+)
+SELECT *, 
+       CASE WHEN warfarin_claims = 0 THEN NULL
+            ELSE ROUND(eliquis_claims * 1.0 / warfarin_claims, 2)
+       END as eliquis_warfarin_ratio
+FROM ratio_calculation
+WHERE eliquis_claims > 100 AND warfarin_claims > 0 
+  AND eliquis_claims > (warfarin_claims * 3)
+ORDER BY eliquis_cost DESC;
+
+-- Savings potential calculation ($543M opportunity)
+WITH expensive_drugs AS (
+    SELECT Gnrc_Name, SUM(Tot_Clms) as current_volume,
+           ROUND(SUM(Tot_Drug_Cst) / SUM(Tot_Clms), 2) as expensive_price_per_claim
+    FROM Medicare_PartD
+    WHERE Gnrc_Name IN ('Apixaban', 'Semaglutide', 'Empagliflozin', 'Dulaglutide', 'Rivaroxaban')
+    GROUP BY Gnrc_Name
+),
+cheap_alternatives AS (
+    SELECT Gnrc_Name,
+           ROUND(SUM(Tot_Drug_Cst) / SUM(Tot_Clms), 2) as cheap_price_per_claim
+    FROM Medicare_PartD
+    WHERE Gnrc_Name IN ('Warfarin Sodium', 'Metformin Hcl')
+    GROUP BY Gnrc_Name
+)
+SELECT e.Gnrc_Name as expensive_drug,
+       e.current_volume,
+       e.expensive_price_per_claim,
+       ROUND(e.current_volume * 0.30 * (e.expensive_price_per_claim - c.cheap_price_per_claim), 0) as potential_savings_30pct_switch
+FROM expensive_drugs e
+JOIN cheap_alternatives c ON 
+    (e.Gnrc_Name IN ('Apixaban', 'Rivaroxaban') AND c.Gnrc_Name = 'Warfarin Sodium') OR
+    (e.Gnrc_Name IN ('Semaglutide', 'Empagliflozin', 'Dulaglutide') AND c.Gnrc_Name = 'Metformin Hcl')
+ORDER BY potential_savings_30pct_switch DESC;
