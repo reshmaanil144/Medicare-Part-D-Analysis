@@ -95,9 +95,7 @@ Humira represents a unique $1.4+ billion opportunity. Unlike the other cost driv
 
 ### 2. The 64-100x Price Differential Investigation
 
-The critical question we needed to answer: Are these drugs expensive because they're the only option, or are cheaper alternatives not being used?
-
-We systematically searched for therapeutic alternatives and analyzed their usage patterns. What we found fundamentally changed our understanding.
+The critical question we needed to answer: Are these drugs expensive because they're the only option, or are cheaper alternatives not being used? We systematically searched for therapeutic alternatives and analyzed their usage patterns. What we found fundamentally changed our understanding.
 
 #### The Price Shock
 
@@ -137,9 +135,7 @@ We tested multiple scenarios:
 - **Base case (30% switch)**: $543 million savings
 - **Aggressive (50% switch)**: $905 million savings
 
-Even our most conservative estimate yields over $350 million annually - a massive opportunity by any standard.
-
-The savings potential remains enormous because the price differentials are so extreme, even if our switching assumptions are significantly wrong.
+Even our most conservative estimate yields over $350 million annually - a massive opportunity by any standard.The savings potential remains enormous because the price differentials are so extreme, even if our switching assumptions are significantly wrong.
 
 ### 4. Utilization Management System Failures
 
@@ -157,9 +153,7 @@ In effective step therapy systems, patients try cheaper options first and only m
 
 #### Prior Authorization Failures & Generic Promotion Breakdown
 
-Massive volumes of expensive drugs indicate prior authorization systems have become rubber-stamp approvals rather than meaningful clinical reviews.
-
-Continued brand drug dominance despite available generics reveals fundamental failures in promotion policies. This is especially concerning for diabetes medications where metformin has decades of proven effectiveness at dramatically lower costs.
+Massive volumes of expensive drugs indicate prior authorization systems have become rubber-stamp approvals rather than meaningful clinical reviews. Continued brand drug dominance despite available generics reveals fundamental failures in promotion policies. This is especially concerning for diabetes medications where metformin has decades of proven effectiveness at dramatically lower costs.
 
 **The Pattern**: Expensive drugs aren't being used as last resorts - they've become first-line choices, representing a complete reversal of cost-effective prescribing principles.
 
