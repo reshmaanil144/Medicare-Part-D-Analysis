@@ -70,7 +70,7 @@ Medicare Part D spending is dangerously concentrated with just 10 drugs consumin
 
 # Insights Deep Dive
 
-## The 30.6% Cost Concentration Discovery
+### 1. The 30.6% Cost Concentration Discovery
 
 When we started analyzing Medicare Part D data, we expected some spending concentration - certain medications are naturally expensive. What we found was far more dramatic than anticipated.
 
@@ -82,7 +82,7 @@ Using systematic SQL analysis, we ranked all drugs by total spending and calcula
 
 This concentration level immediately signals where intervention efforts should focus.
 
-### Three Distinct Patterns Emerged
+#### Three Distinct Patterns Emerged
 
 **Blood Thinners Dominating the Market**  
 Eliquis and Xarelto have largely replaced warfarin for common conditions like atrial fibrillation. These newer blood thinners cost dramatically more but are being prescribed to hundreds of thousands of patients as the default choice.
@@ -95,14 +95,13 @@ Humira represents a unique $1.4+ billion opportunity. Unlike the other cost driv
 
 **The Real Issue**: This isn't about expensive drugs existing - it's about expensive drugs dominating markets where cheaper, effective alternatives are available.
 
-
-## The 64-100x Price Differential Investigation
+### 2. The 64-100x Price Differential Investigation
 
 The critical question we needed to answer: Are these drugs expensive because they're the only option, or are cheaper alternatives not being used?
 
 We systematically searched for therapeutic alternatives and analyzed their usage patterns. What we found fundamentally changed our understanding.
 
-### The Price Shock
+#### The Price Shock
 
 **Blood Thinners - Two Different Worlds**
 - **Eliquis**: $870 per prescription × 787,000 prescriptions = $684 million
@@ -114,18 +113,17 @@ We systematically searched for therapeutic alternatives and analyzed their usage
 - **Metformin**: $10 per prescription
 - **Gap**: 100 times more expensive for the same therapeutic outcome
 
-### The Volume Problem
+#### The Volume Problem
 
 Here's what's truly concerning: Eliquis has 4.5 times more prescriptions than warfarin but costs 285 times more total. This suggests expensive drugs aren't reserved for special cases - they've become the default choice.
 
 **Critical Question**: Are all 787,000 Eliquis patients truly unable to use the $13 warfarin alternative? Or are we witnessing a system-wide shift driven by factors beyond medical necessity?
 
-
-## The $543M Savings Calculation
+### 3. The $543M Savings Calculation
 
 Calculating realistic savings required careful consideration of clinical constraints and implementation reality.
 
-### Conservative Approach
+#### Conservative Approach
 
 We assumed only **30% of patients** could safely switch to cheaper alternatives, accounting for:
 
@@ -134,7 +132,7 @@ We assumed only **30% of patients** could safely switch to cheaper alternatives,
 - Complex conditions requiring specific formulations
 - Implementation challenges and provider resistance
 
-### Sensitivity Testing
+#### Sensitivity Testing
 
 We tested multiple scenarios:
 
@@ -146,12 +144,11 @@ Even our most conservative estimate yields over $350 million annually - a massiv
 
 **Bottom Line**: The savings potential remains enormous because the price differentials are so extreme, even if our switching assumptions are significantly wrong.
 
-
-## Utilization Management System Failures
+### 4. Utilization Management System Failures
 
 The patterns we discovered don't happen by accident. They represent systematic failures in cost control systems designed to prevent inappropriate spending.
 
-### Step Therapy Gaps
+#### Step Therapy Gaps
 
 **Evidence**: 787,000 people on $870 Eliquis while only 174,000 use $13 warfarin.
 
@@ -161,17 +158,15 @@ In effective step therapy systems, patients try cheaper options first and only m
 - Requirements are too easy to bypass
 - Clinical criteria are so broad that most patients qualify for expensive options
 
-### Prior Authorization Failures
+#### Prior Authorization Failures
 
 Massive volumes of expensive drugs indicate prior authorization systems have become rubber-stamp approvals rather than meaningful clinical reviews.
 
-### Generic Promotion Breakdown
+#### Generic Promotion Breakdown
 
 Continued brand drug dominance despite available generics reveals fundamental failures in promotion policies. This is especially concerning for diabetes medications where metformin has decades of proven effectiveness at dramatically lower costs.
 
 **The Pattern**: Expensive drugs aren't being used as last resorts - they've become first-line choices, representing a complete reversal of cost-effective prescribing principles.
-
-
 
 # Recommendations:
 
