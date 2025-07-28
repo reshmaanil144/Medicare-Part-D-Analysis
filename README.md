@@ -36,7 +36,7 @@ Outlier investigation methodology queries can be found [here](https://github.com
 
 The Medicare Part D prescriber database consists of one main table: **Medicare_PartD**, containing **1,000,000+** prescription records across all US states and territories with **22 fields** covering prescriber information, drug details, volume metrics, and cost data.
 
-## Data Quality & Exploration
+![Medicare Part D Database Schema](https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/image.png)
 
 Prior to beginning the analysis, comprehensive quality control checks were conducted to ensure data integrity and gain familiarity with the dataset structure. These checks validated data completeness, identified potential outliers, and confirmed the dataset's suitability for utilization management analysis.
 
@@ -46,7 +46,7 @@ Prior to beginning the analysis, comprehensive quality control checks were condu
 - **Volume Metrics:** Prescription counts and patient populations
 - **Cost Data:** Total drug costs and per-prescription pricing
 
-The SQL queries used to inspect and perform quality checks can be found here [data_cleaning.sql](https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/sql/data_cleaning.sql).
+The SQL queries used to inspect and perform quality checks can be found [here](https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/sql/data_cleaning.sql).
 
 
 
