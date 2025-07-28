@@ -4,18 +4,18 @@ Medicare Part D, established in 2006, is a federal prescription drug benefit pro
 
 The program has accumulated comprehensive prescriber-level data covering over 1 million prescription records, including drug costs, prescribing patterns, and provider behavior that reveals significant opportunities for cost optimization. This project systematically analyzes this data to identify **specific, actionable interventions** that could save billions through improved utilization management.
 
-## Insights and recommendations are provided on the following key areas:
+Insights and recommendations are provided on the following key areas:
 
-## Cost Concentration Crisis
+**Cost Concentration Crisis:**
 Just 10 drugs consume 31% of ALL Medicare drug spending, with blood thinners, diabetes drugs, and biologics driving this unprecedented concentration. This creates a massive $543M savings opportunity by targeting these specific high-impact medications rather than broad cost-cutting measures.
 
-## Price Differential Analysis
+**Price Differential Analysis:**
 Shocking 64x-100x price gaps between equally effective drugs - Eliquis costs $870 vs. $13 for Warfarin, yet Eliquis has 4.5x more prescriptions. This reveals systematic failures where expensive drugs became default choices instead of last resorts, creating immediate intervention opportunities.
 
-## Provider Targeting Strategy
+**Provider Targeting Strategy:**
 Identification of specific prescribers driving disproportionate expensive drug usage enables precision interventions. Target doctors with extreme expensive-to-cheap prescribing ratios for enhanced oversight, step therapy enforcement, and education programs focused on the biggest cost drivers.
 
-## Performance Tracking Framework
+**Performance Tracking Framework:**
 Three core metrics to monitor $543M savings progress: Generic Substitution Rate (improve blood thinner generic usage from current 18% toward category-appropriate benchmarks), Cost Concentration (reduce top-10 drug dominance from 31% to under 25%), and Provider Efficiency Scores. Monthly dashboard tracking ensures accountability and measures real progress toward cost reduction goals.
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [data_cleaning.sql](https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/sql/data_cleaning.sql).
