@@ -166,12 +166,12 @@ Method: Specialty-specific peer comparisons
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
   
-* Sample Size and Data Limitations
+* Sample Size and Data Limitations: 
 Analysis is based on 1 million prescription records out of a 23+ million record dataset, offering strong insights but not a complete view of Medicare Part D prescribing behavior.
 
-* Clinical Substitution Assumptions
+* Clinical Substitution Assumptions: 
 Assumes that 30% of patients on high-cost drugs can safely switch to cheaper alternatives, though many may require the original medication due to clinical needs.
 
-* No Time-Based Trends
+* No Time-Based Trends: 
 Data is a single point-in-time snapshot with no seasonal or longitudinal trends, limiting analysis of how prescribing patterns change over time.
 
