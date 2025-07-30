@@ -130,7 +130,7 @@ Humira represents a unique $1.4+ billion opportunity. Unlike the other cost driv
 * **High-Volume Expensive-Only Pattern.** Discovery of prescribers writing large volumes of expensive drugs while completely avoiding cheaper alternatives suggests systematic utilization management bypass rather than patient-specific clinical decisions.
 
 
-<img src="https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/Data%20Viz/precriber%20analysis.png" width="800">
+<img src="https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/Data%20Viz/Cost%20control%20startegies.png" width="800">
 
 # KPIs & Recommendations:
 
