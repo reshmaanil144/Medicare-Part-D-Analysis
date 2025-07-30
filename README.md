@@ -7,7 +7,7 @@ Medicare Part D provides prescription drug coverage to over 48 million Americans
 
 This project uses the 2023 public dataset, which includes **1 million prescription records** as a representative sample. The analysis demonstrates a systematic, data driven methodology to uncover utilization management gaps and identify potential savings. Approaches such as detecting cost concentration patterns, pricing variations, and prescribing behavior are showcased, methods that insurers can replicate using internal claims data to support cost containment efforts.
 
-Insights and recommendations are provided on the following key areas:
+**Insights and recommendations are provided on the following key areas:**
 
 **Cost Concentration Crisis:**
 Just 10 drugs consume 31% of ALL Medicare drug spending, with blood thinners, diabetes drugs, and biologics driving this unprecedented concentration. This creates a massive $543M savings opportunity by targeting these specific high-impact medications rather than broad cost-cutting measures.
