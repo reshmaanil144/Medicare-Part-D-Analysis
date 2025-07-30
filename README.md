@@ -1,5 +1,5 @@
 # Medicare Part D Cost Concentration Analysis
-<h1 style="text-decoration: none; border-bottom: none;">Medicare Part D Cost Analysis</h1>
+
 ---
 # Project Background
 
