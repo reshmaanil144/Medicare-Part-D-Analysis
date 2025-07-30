@@ -1,8 +1,9 @@
 
 # Project Background
 
-Medicare Part D serves over 48 million Americans with annual prescription drug spending exceeding $100 billion, yet just 10 drugs account for over 30% of total program costs. Health insurance companies managing these plans possess vast prescription data but often lack analytical frameworks to identify specific cost optimization opportunities.
-This project demonstrates a systematic data-driven methodology using Medicare Part D public data as a representative sample of **1 million prescription records** to uncover utilization management failures and quantify potential savings. The analysis showcases approaches for detecting cost concentration patterns, price differentials, and prescribing behaviors that drive unnecessary spending - insights companies can replicate with proprietary data to achieve significant cost reductions.
+Medicare Part D provides prescription drug coverage to over 48 million Americans. To promote transparency and support research, the Centers for Medicare & Medicaid Services (CMS) publishes the Part D Prescribers Dataset, which contains detailed information on prescription drug events (PDEs) submitted by providers enrolled in Medicare Part D.
+
+This project uses the 2023 public dataset, which includes **1 million prescription records** as a representative sample. The analysis demonstrates a systematic, data driven methodology to uncover utilization management gaps and identify potential savings. Approaches such as detecting cost concentration patterns, pricing variations, and prescribing behavior are showcased, methods that insurers can replicate using internal claims data to support cost containment efforts.
 
 Insights and recommendations are provided on the following key areas:
 
@@ -131,7 +132,7 @@ Humira represents a unique $1.4+ billion opportunity. Unlike the other cost driv
 
 # KPIs & Recommendations:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+Based on the insights and findings above, we would recommend the Pharmacy Benefits Management (PBM) team to consider the following: 
 
 ### 1. Target High Volume + Moderate Cost Drugs
 Blood thinners and diabetes drugs represent the highest-impact opportunity, driving $543M in potential savings through price differentials of 64-100x between brand and generic alternatives. The strategy focuses on implementing mandatory step therapy protocols for Eliquis (786K prescriptions) and expensive diabetes medications (530K prescriptions), requiring patients to trial lower-cost alternatives like warfarin and metformin before accessing brand-name drugs. This approach targets the sweet spot of high prescription volume combined with substantial cost differences, creating a pathway to $267M in blood thinner savings and $276M in diabetes drug savings annually.
@@ -164,9 +165,13 @@ Method: Specialty-specific peer comparisons
 # Assumptions and Caveats:
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
+  
+* Sample Size and Data Limitations
+Analysis is based on 1 million prescription records out of a 23+ million record dataset, offering strong insights but not a complete view of Medicare Part D prescribing behavior.
 
-* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
-  
-* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
-  
-* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
+* Clinical Substitution Assumptions
+Assumes that 30% of patients on high-cost drugs can safely switch to cheaper alternatives, though many may require the original medication due to clinical needs.
+
+* No Time-Based Trends
+Data is a single point-in-time snapshot with no seasonal or longitudinal trends, limiting analysis of how prescribing patterns change over time.
+
