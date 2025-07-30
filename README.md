@@ -133,17 +133,33 @@ Humira represents a unique $1.4+ billion opportunity. Unlike the other cost driv
 
 Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+### 1. Target High Volume + Moderate Cost Drugs
+Blood thinners and diabetes drugs represent the highest-impact opportunity, driving $543M in potential savings through price differentials of 64-100x between brand and generic alternatives. The strategy focuses on implementing mandatory step therapy protocols for Eliquis (786K prescriptions) and expensive diabetes medications (530K prescriptions), requiring patients to trial lower-cost alternatives like warfarin and metformin before accessing brand-name drugs. This approach targets the sweet spot of high prescription volume combined with substantial cost differences, creating a pathway to $267M in blood thinner savings and $276M in diabetes drug savings annually.
+### 2. Focus on Patent Expired Biologics
+Recent patent expirations, particularly for high-cost biologics like Humira, create immediate opportunities for biosimilar adoption and cost reduction. The recommendation involves mandating biosimilar trials for all new patients requiring these medications while requiring clinical justification for continued use of brand-name drugs over their biosimilar alternatives. This policy leverages the natural transition period following patent expiration to systematically shift utilization toward lower-cost therapeutic equivalents without compromising patient care quality.
+### 3. Target Prescriber-Driven Cost Patterns
+Analysis reveals specific prescribers consistently favor expensive alternatives when lower-cost options are clinically appropriate, creating targeted intervention opportunities. Enhanced prior authorization protocols should be implemented for prescribers demonstrating expense ratios above 3:1 for drugs like Eliquis versus warfarin or expensive diabetes medications versus metformin. Using prescriber NPI data from the analysis, this approach creates accountability mechanisms that address provider-level prescribing patterns driving unnecessary costs while maintaining clinical autonomy for appropriate cases.
+### 4. Address the 30.6% Cost Concentration
+The extreme concentration where just 10 drugs account for one-third of Medicare Part D spending requires systematic utilization management protocols specifically targeting these high-impact medications. This recommendation focuses organizational resources on drugs with the highest volume and available therapeutic alternatives, creating a structured approach to the most significant cost drivers in the Medicare system. Success depends on comprehensive policies that address the root causes of spending concentration rather than isolated drug-by-drug interventions.
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
+## Key Performance Indicators
+### 1. Generic Substitution Rate
+Generic Claims / (Generic + Brand Claims) × 100
 
+Current: ~18% for blood thinners
+Target:  Achieve 35% generic rate within 6 months (nearly doubling current performance)
+
+### 2. Drug Category Cost Concentration
+Top 10 Drug Costs / Total Drug Costs × 100
+
+Current: 30.6% concentration
+Target: <25% within 12 months
+
+### 3. Prescriber Efficiency Score
+(Peer Average Cost - Individual Prescriber Cost) / Peer Average Cost × 100
+
+Focus: Target bottom 20% prescribers for intervention
+Method: Specialty-specific peer comparisons
 
 # Assumptions and Caveats:
 
