@@ -104,7 +104,7 @@ Humira represents a unique $1.4+ billion opportunity. Unlike the other cost driv
 
 ![Alt text](https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/Data%20Viz/Medicare-Part-D-Drug-Intervention-Matrix-Strategic-Cost-Control-Framework%20(1).png)
 
-
+<img src="https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/Data%20Viz/Medicare-Part-D-Drug-Intervention-Matrix-Strategic-Cost-Control-Framework%20(1).png" width="500">
 
 ### 3. The $543M Savings Calculation Discovery
 
@@ -118,7 +118,7 @@ Humira represents a unique $1.4+ billion opportunity. Unlike the other cost driv
 
 ![Alt text](https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/Data%20Viz/Projected%20annual%20savings.png)
 
-
+<img src="https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/Data%20Viz/Projected%20annual%20savings.png" width="500">
 
 ### 4. Prescriber Behavior Pattern Analysis
 
@@ -131,6 +131,8 @@ Humira represents a unique $1.4+ billion opportunity. Unlike the other cost driv
 * **High-Volume Expensive-Only Pattern.** Discovery of prescribers writing large volumes of expensive drugs while completely avoiding cheaper alternatives suggests systematic utilization management bypass rather than patient-specific clinical decisions.
 
 ![Alt text](https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/Data%20Viz/precriber%20analysis.png)
+<img src="https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/Data%20Viz/precriber%20analysis.png" width="500">
+
 # KPIs & Recommendations:
 
 Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
