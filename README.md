@@ -101,7 +101,7 @@ Humira represents a unique $1.4+ billion opportunity. Unlike the other cost driv
 
 * **Cost Control Priority Matrix Discovery.** Analysis revealed four distinct cost patterns requiring different intervention approaches: High Price/High Volume (step therapy priority), High Price/Low Volume (medical necessity review), Low Price/High Volume (maintain current), Low Price/Low Volume (monitor only), enabling systematic resource allocation.
 
-[Price vs Volume Impact Matrix Visualization]
+![Alt text](https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/Data%20Viz/Medicare-Part-D-Drug-Intervention-Matrix-Strategic-Cost-Control-Framework%20(1).png)
 
 
 
@@ -115,7 +115,7 @@ Humira represents a unique $1.4+ billion opportunity. Unlike the other cost driv
 
 * **Mathematical Reality of Price Differentials.** Discovery that savings potential scales with price gaps rather than volume alone - because expensive drugs cost 64-100x more, even modest switching rates generate substantial financial impact regardless of conservative clinical assumptions.
 
-[Savings Potential Breakdown Chart]
+![Alt text](https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/Data%20Viz/Projected%20annual%20savings.png)
 
 
 
@@ -129,7 +129,7 @@ Humira represents a unique $1.4+ billion opportunity. Unlike the other cost driv
 
 * **High-Volume Expensive-Only Pattern.** Discovery of prescribers writing large volumes of expensive drugs while completely avoiding cheaper alternatives suggests systematic utilization management bypass rather than patient-specific clinical decisions.
 
-[Prescriber Efficiency Comparison Chart]
+![Alt text](https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/Data%20Viz/precriber%20analysis.png)
 # KPIs & Recommendations:
 
 Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
