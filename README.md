@@ -89,7 +89,7 @@ Ozempic, Jardiance, and Trulicity represent a fundamental shift toward expensive
 
 * **Patent Cliff Opportunities**  
 Humira represents a unique $1.4+ billion opportunity. Unlike the other cost drivers, Humira's patent expiration creates direct biosimilar substitution possibilities with clinically equivalent but significantly cheaper alternatives now available. 
-
+![Alt text](https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/Data%20Viz/Cumulative%20drug%20distribution.png)
 
 ### 2. The Price-Volume Inversion Discovery
 
