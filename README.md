@@ -104,7 +104,7 @@ Humira represents a unique $1.4+ billion opportunity. Unlike the other cost driv
 * **Cost Control Priority Matrix Discovery.** Analysis revealed four distinct cost patterns requiring different intervention approaches: High Price/High Volume (step therapy priority), High Price/Low Volume (medical necessity review), Low Price/High Volume (maintain current), Low Price/Low Volume (monitor only), enabling systematic resource allocation.
 
 
-<img src="https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/Data%20Viz/Cost%20control%20startegies.png" width="800" height="400">
+<img src="https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/Data%20Viz/Cost%20control%20startegies.png" width="600" height="400">
 
 ### 3. The $543M Savings Calculation Discovery
 
