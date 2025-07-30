@@ -134,7 +134,7 @@ Humira represents a unique $1.4+ billion opportunity. Unlike the other cost driv
 
 # KPIs & Recommendations:
 
-Based on the insights and findings above, we would recommend the Pharmacy Benefits Management (PBM) team to consider the following: 
+**Based on the insights and findings above, we would recommend the Pharmacy Benefits Management (PBM) team to consider the following:**
 
 ### 1. Target High Volume + Moderate Cost Drugs
 Blood thinners and diabetes drugs represent the highest-impact opportunity, driving $543M in potential savings through price differentials of 64-100x between brand and generic alternatives. The strategy focuses on implementing mandatory step therapy protocols for Eliquis (786K prescriptions) and expensive diabetes medications (530K prescriptions), requiring patients to trial lower-cost alternatives like warfarin and metformin before accessing brand-name drugs. This approach targets the sweet spot of high prescription volume combined with substantial cost differences, creating a pathway to $267M in blood thinner savings and $276M in diabetes drug savings annually.
