@@ -1,11 +1,8 @@
 
 # Project Background
 
-Medicare Part D, established in 2006, is a federal prescription drug benefit program that serves over 48 million Americans with annual prescription drug spending exceeding $100 billion. Current spending patterns show extreme concentration, with just 10 drugs accounting for over 30% of total program costs.
-
-Health insurance companies managing Medicare Part D plans possess vast amounts of prescription data but often lack the analytical frameworks to identify specific cost optimization opportunities. This project demonstrates a systematic data-driven methodology that insurance companies can apply to their internal prescription databases to uncover utilization management failures and quantify potential savings.
-
-Using Medicare Part D public data as a representative sample of **1 million prescription records**, this analysis showcases the analytical approach for detecting cost concentration patterns, price differential opportunities, and provider prescribing behaviors that drive unnecessary spending - insights that companies can replicate with their own proprietary data to achieve significant cost reductions.
+Medicare Part D serves over 48 million Americans with annual prescription drug spending exceeding $100 billion, yet just 10 drugs account for over 30% of total program costs. Health insurance companies managing these plans possess vast prescription data but often lack analytical frameworks to identify specific cost optimization opportunities.
+This project demonstrates a systematic data-driven methodology using Medicare Part D public data as a representative sample of **1 million prescription records** to uncover utilization management failures and quantify potential savings. The analysis showcases approaches for detecting cost concentration patterns, price differentials, and prescribing behaviors that drive unnecessary spending - insights companies can replicate with proprietary data to achieve significant cost reductions.
 
 Insights and recommendations are provided on the following key areas:
 
