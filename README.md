@@ -9,6 +9,8 @@ This project uses the 2023 public dataset, which includes **1 million prescripti
 
 [![Medicare Analysis Demo](https://cdn.loom.com/sessions/thumbnails/fa3738a96fdf4e1aa2ea8d96738148e1-with-uuid.jpg)](https://www.loom.com/share/fa3738a96fdf4e1aa2ea8d96738148e1)
 
+[![Video Title](https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=lG4VkPoG3ko&t=548s)
+
 ## Project Demo
 
 Watch the full analysis walkthrough:
