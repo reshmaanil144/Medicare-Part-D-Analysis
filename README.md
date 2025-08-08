@@ -7,25 +7,13 @@ Medicare Part D provides prescription drug coverage to over 48 million Americans
 
 This project uses the 2023 public dataset, which includes **1 million prescription records** as a representative sample. The analysis demonstrates a systematic, data driven methodology to uncover utilization management gaps and identify potential savings. Approaches such as detecting cost concentration patterns, pricing variations, and prescribing behavior are showcased, methods that insurers can replicate using internal claims data to support cost containment efforts.
 
-[![Medicare Analysis Demo](https://cdn.loom.com/sessions/thumbnails/fa3738a96fdf4e1aa2ea8d96738148e1-with-uuid.jpg)](https://www.loom.com/share/fa3738a96fdf4e1aa2ea8d96738148e1)
-
-[![Video Title](https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=lG4VkPoG3ko&t=548s)
-
 ## Project Demo
 
 Watch the full analysis walkthrough:
 
-https://github.com/reshmaanil144/Medicare-Part-D-Analysis/raw/main/Analyzing%20Medicare%20Part%20D_%20Identifying%20Cost-Saving%20Opportunities%20in%20Prescription%20Drug%20Spending.mp4
+[![Video Title](https://img.youtube.com/vi/YOUR_VIDEO_ID/default.jpg)](https://www.youtube.com/watch?v=lG4VkPoG3ko&t=548s))
 
-Here is short presentation on the key findings and recommendations
 
-[![Loom Video](https://cdn.loom.com/sessions/thumbnails/fa3738a96fdf4e1aa2ea8d96738148e1-with-uuid.jpg)](https://www.loom.com/share/fa3738a96fdf4e1aa2ea8d96738148e1?sid=1b0df8a2-98e8-4d72-8f52-2682572593f6)
-
-## Project Demo
-
-Watch the full analysis walkthrough:
-
-https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/Analyzing%20Medicare%20Part%20D_%20Identifying%20Cost-Saving%20Opportunities%20in%20Prescription%20Drug%20Spending.mp4
 
 **Insights and recommendations are provided on the following key areas:**
 
