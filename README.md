@@ -12,10 +12,11 @@ This project uses the 2023 public dataset, which includes **1 million prescripti
 Watch the full analysis walkthrough:
 
 
-<a href="https://www.youtube.com/watch?v=lG4VkPoG3ko&t=548s">
-  <img src="https://img.youtube.com/vi/lG4VkPoG3ko/maxresdefault.jpg" alt="Medicare Part D Analysis Demo" width="300">
+<a href="https://www.youtube.com/watch?v=lG4VkPoG3ko&t=548s" target="_blank">
+  <img src="https://img.youtube.com/vi/lG4VkPoG3ko/maxresdefault.jpg" alt="Medicare Part D Analysis Demo" width="400">
 </a>
 
+*Click to watch the full analysis walkthrough*
 
 
 **Insights and recommendations are provided on the following key areas:**
