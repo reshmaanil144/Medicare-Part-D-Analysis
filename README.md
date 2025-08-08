@@ -10,17 +10,11 @@ This project uses the 2023 public dataset, which includes **1 million prescripti
 ## Project Demo
 
 Watch the full analysis walkthrough:
-## Project Demo
 
-<a href="https://www.youtube.com/watch?v=lG4VkPoG3ko&t=548s" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.youtube.com/vi/lG4VkPoG3ko/maxresdefault.jpg" alt="Medicare Part D Analysis Demo" width="400">
+<a href="https://www.loom.com/share/fa3738a96fdf4e1aa2ea8d96738148e1">
+  <img src="https://cdn.loom.com/sessions/thumbnails/fa3738a96fdf4e1aa2ea8d96738148e1-466a7a6ecf4f782d-full-play.gif" alt="Medicare Part D Analysis Demo" width="400">
 </a>
 
-*Click to watch the full analysis walkthrough (opens in new tab)*
-
-<a href="https://www.youtube.com/watch?v=lG4VkPoG3ko&t=548s" target="_blank">
-  <img src="https://img.youtube.com/vi/lG4VkPoG3ko/maxresdefault.jpg" alt="Medicare Part D Analysis Demo" width="400">
-</a>
 
 *Click to watch the full analysis walkthrough*
 
