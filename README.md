@@ -11,6 +11,12 @@ Here is short presentation on the key findings and recommendations
 
 [![Loom Video](https://cdn.loom.com/sessions/thumbnails/fa3738a96fdf4e1aa2ea8d96738148e1-with-uuid.jpg)](https://www.loom.com/share/fa3738a96fdf4e1aa2ea8d96738148e1?sid=1b0df8a2-98e8-4d72-8f52-2682572593f6)
 
+## Project Demo
+
+Watch the full analysis walkthrough:
+
+https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/Analyzing%20Medicare%20Part%20D_%20Identifying%20Cost-Saving%20Opportunities%20in%20Prescription%20Drug%20Spending.mp4
+
 **Insights and recommendations are provided on the following key areas:**
 
 **Cost Concentration Crisis:**
